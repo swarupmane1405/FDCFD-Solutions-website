@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+    <title>FDC Solutions</title>
+  </head>
+  <body>
+    <header class="header-area">
+      <!-- site-navbar start -->
+      <div class="navbar-area">
+        <div class="container">
+          <nav class="site-navbar">
+            <!-- site logo -->
+            <a href="./index.html" class="site-logo"
+              ><img src="./assets/logo.png" alt=""
+            /></a>
+
+            <!-- site menu/nav -->
+            <ul>
+              <li><a href="#section-01">Home</a></li>
+              <li><a href="#section-02">About Us</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <!-- <li><a href="#section-06">Blogs/news</a></li>
+              <li><a href="#section-06">Resources</a></li> -->
+              <li><a href="#section-06">Contact Us</a></li>
+            </ul>
+
+            <!-- nav-toggler for mobile version only -->
+            <button class="nav-toggler">
+              <span></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+      <!-- navbar-area end -->
+    </header>
+
+    
+
+
+    <!-- ------------------Hero section------------------ -->
+    <section class="section-01" id="section-01">
+      <div class="carousel">
+        <div class="carousel-slides">
+          <img src="./assets/1.jpg" alt="Image 1" />
+          <img src="./assets/2.jpg" alt="Image 2" />
+          <img src="./assets/3.jpg" alt="Image 3" />
+          <img src="./assets/4.jpg" alt="Image 3" />
+        </div>
+        <button class="prev cbutton" onclick="prevSlide()">
+          <i class="ri-arrow-left-line"></i>
+        </button>
+        <button class="next cbutton" onclick="nextSlide()">
+          <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+
+      <div class="container1">
+        <h1>We are Creating</h1>
+        <h1>a Future</h1>
+      </div>
+      <a href="#section-02" class="scroll_down" id="scroll_down"> </a>
+
+
+<!-- Popup -->
+<div class="custom-popup" id="customPopup">
+  <button onclick="closeCustomPopup()" id="customCloseIcon">
+    <i class="ri-close-fill"></i>
+  </button>
+  <div class="custom-container">
+    <div class="custom-contact-info">
+      <h2>Let's Work Together</h2>
+      <p><i class="ri-map-pin-2-fill"></i> RIT, Islampur, rajaramnagar</p>
+      <p>
+        <i class="ri-mail-fill"></i> Email:
+        <a href="mailto:abcedefg@gmail.com">fdcfdsolutions@gmail.com</a>
+      </p>
+      <p><i class="ri-phone-fill"></i> +91 8830897023</p>
+      <p><i class="ri-phone-fill"></i> +91 9890837581</p>
+      <p>
+        <a href="www.linked.com"
+          ><i class="ri-linkedin-box-fill"></i> fdc-solutions</a
+        >
+      </p>
+    </div>
+    <form class="custom-form" method="post" action="https://script.google.com/macros/s/AKfycbyrqDvK0Mi1TF1ok3IdMWWh3LeraOzuW1aLSocJk1HS8w3KFsCBawFFe-20F40r2xaH6Q/exec" name="custom-contact-form">
+      <input type="text" id="customName" name="name" placeholder="Name" required /><br />
+      <input type="email" id="customEmail" name="email" placeholder="Email" required /><br />
+      <input type="tel" id="customPhone" name="phone" placeholder="Phone" required /><br />
+      <textarea id="customMessage" name="message" placeholder="Message" required></textarea><br />
+      <button onclick="closeCustomPopup()">Send</button>
+    </form>
+  </div>
+</div>
+
+    </section>
+
+
+    <!-- ------------------About section------------------ -->
+    <section class="section-02" id="section-02">
+      <div class="content-container">
+        <div class="heading">
+          <div class="hleft"></div>
+          <div class="hright">
+            <h1>About us</h1>
+          </div>
+        </div>
+        <div class="about">
+          <div class="aleft"></div>
+          <div class="aright">
+            <h1>Welcome to FlowDynamics CFD Solutions!</h1>
+            <p>
+              FDC Solutions is your trusted partner for engineering and technology solutions, offering expertise in Mechanical and Allied Disciplines with a focus on Computational Fluid Dynamics (CFD) analysis, CS/AIML/Mechatronics/Automation projects including Python Development, Deep Learning, and NLP, and Electrical Projects featuring transformers, motors, Ansys Maxwell and Ansys Rmexprt Analysis. We prioritize client satisfaction, delivering exceptional solutions through technical expertise and a client-centric approach. Committed to innovation and quality, we aim to exceed expectations, driving success and technological advancement for our clients.</p>
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------projects section------------------ -->
+    <section class="section-04" id="section-04">
+      <div class="heading">
+        <div class="hleft"></div>
+        <div class="hright">
+          <h1>Our Projects</h1>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="./assets/librium1.jpg" alt="Card Image 1" />
+          <h2>
+            Thermal analysis of Lithium-ion cell by using phase change material
+          </h2>
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illo
+            numquam aperiam nobis minima esse fugit aliquid ratione et est?
+          </p> -->
+          <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+          <img src="./assets/3a.jpg" alt="Card Image 2" />
+          <h2>Thermal analysis of wind mills</h2>
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illo
+            numquam aperiam nobis minima esse fugit aliquid ratione et est?
+          </p> -->
+          <a href="#" onclick="openCustomPopup()">Learn More</a>
+        </div>
+        <div class="card">
+          <img src="./assets/5a.jpg" alt="Card Image 3" />
+          <h2>Thermal analysis of heat exchangers</h2>
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illo
+            numquam aperiam nobis minima esse fugit aliquid ratione et est?
+          </p> -->
+          <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+          <img src="./assets/cropyeild1.jpg" alt="Card Image 3" />
+          <h2>
+            Crop Yield Prediction Using Rnn And Cnn</h2>
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illo
+            numquam aperiam nobis minima esse fugit aliquid ratione et est?
+          </p> -->
+          <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+          <img src="./assets/bird1.jpg" alt="Card Image 3" />
+          <h2>
+            Bird Detection</h2>
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illo
+            numquam aperiam nobis minima esse fugit aliquid ratione et est?
+          </p> -->
+          <a href="#">Learn More</a>
+        </div>
+        
+      </div>
+    </section>
+    <!-- ------------------customer section------------------ -->
+    <section class="section-05" id="section-05">
+      <div class="card-container">
+        <div class="card">
+          <h2>Optimization</h2>
+          <p>
+            Utilize CFD analysis to optimize the design of mechanical components
+            or systems for improved performance, efficiency, and reliability.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Fluid Flow Analysis</h2>
+          <p>
+            Investigate the behavior of fluid flow within mechanical systems,
+            such as pipes, valves, pumps, and ducts, to identify areas of
+            turbulence, pressure drops, or flow separation.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Heat Transfer Analysis</h2>
+          <p>
+            Evaluate heat transfer mechanisms within mechanical systems to
+            ensure efficient thermal management, prevent overheating, and
+            optimize cooling strategies.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Pressure Distribution</h2>
+          <p>
+            Analyze pressure distributions across surfaces within mechanical
+            systems to identify areas of high stress, potential failure points,
+            and opportunities for reinforcement or redesign.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Aerodynamic Analysis</h2>
+          <p>
+            Assess the aerodynamic performance of mechanical components,
+            vehicles, or structures to minimize drag, optimize lift, and improve
+            overall efficiency.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Fluid-Structure Interaction (FSI)</h2>
+          <p>
+            Study the interaction between fluid flow and mechanical structures
+            to assess the effects of forces, vibrations, and deformations on
+            system performance and integrity.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Performance Validation</h2>
+          <p>
+            Validate the performance of mechanical systems through CFD
+            simulations against experimental data or established benchmarks to
+            ensure accuracy and reliability of results.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Design Verification</h2>
+          <p>
+            Verify the effectiveness of proposed design modifications or
+            enhancements through CFD analysis before implementation, reducing
+            time and costs associated with physical prototyping and testing.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Innovative Solutions</h2>
+          <p>
+            Explore novel concepts and innovative design strategies through
+            iterative CFD simulations to push the boundaries of mechanical
+            engineering and drive technological advancements.
+          </p>
+        </div>
+      </div>
+      <div class="heading">
+        <div class="hleft"></div>
+        <div class="hright">
+          <h1>Customer Testimonials</h1>
+        </div>
+      </div>
+      <div class="container5">
+        <div class="customer-container">
+          <div class="customer">
+            <div class="left">
+              <img src="./assets/people-2.jpg" alt="people" height="100" />
+            </div>
+            <div class="right">
+              <h2>Indrajeet Pisal, Engineering Manager
+              </h2>
+              <p>
+                FDC Solutions transformed our product development with their CFD expertise, enhancing efficiency and performance.
+              </p>
+            </div>
+          </div>
+          <div class="customer">
+            <div class="left">
+              <img src="./assets/people-1.jpg" alt="people" height="100" />
+            </div>
+            <div class="right">
+              <h2>Sarah Ganwani, CEO</h2>
+              <p>
+                FDC Solutions streamlined our operations with AI and ML, leading to significant cost savings.
+              </p>
+            </div>
+          </div>
+          <div class="customer">
+            <div class="left">
+              <img src="./assets/people-3.jpg" alt="people" height="100" />
+            </div>
+            <div class="right">
+              <h2>Madhura Kamat, Project Engineer</h2>
+              <p>
+                Impressed by FDC Solutions' Electrical Engineering expertise, ensuring optimal motor performance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------Contact section------------------ -->
+    <section class="section-06" id="section-06">
+      <div class="heading">
+        <div class="hleft"></div>
+        <div class="hright">
+          <h1>Contact US</h1>
+        </div>
+      </div>
+      <div class="container6">
+        <div class="contact-info">
+          <h2>Let's Work Together</h2>
+          <p><i class="ri-map-pin-2-fill"></i> RIT, Islampur, rajaramnagar</p>
+          <p>
+            <i class="ri-mail-fill"></i> Email:
+            <a href="mailto:abcedefg@gmail.com">fdcfdsolutions@gmail.com</a>
+          </p>
+          <p><i class="ri-phone-fill"></i> +91 8830897023</p>
+          <p><i class="ri-phone-fill"></i> +91 9890837581</p>
+          <p>
+            <a href="www.linked.com"
+              ><i class="ri-linkedin-box-fill"></i> fdc-solutions</a
+            >
+          </p>
+        </div>
+        <form
+          class="form"
+          method="post"
+          action="https://script.google.com/macros/s/AKfycbyrqDvK0Mi1TF1ok3IdMWWh3LeraOzuW1aLSocJk1HS8w3KFsCBawFFe-20F40r2xaH6Q/exec"
+          name="contact-form"
+        >
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          /><br />
+          <input
+            type="number"
+            id="email"
+            name="phone"
+            placeholder="Phone"
+            required
+          /><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message"
+            required
+          ></textarea
+          ><br />
+          <button onclick="openPopup()">Send</button>
+        </form>
+      </div>
+      <div class="popup" id="popup">
+        <button onclick="closePopup()" id="closeicon">
+          <i class="ri-close-fill"></i>
+        </button>
+        <i class="ri-checkbox-circle-fill" id="checkpop"></i>
+        <h2>Thankyou</h2>
+        <p>Your details has been successfully submitted.Thanks!</p>
+        <button class="whatbutton">
+          <a href="https://wa.me/9503247242"
+            ><i class="ri-whatsapp-fill"> Get in Touch</i>
+          </a>
+        </button>
+      </div>
+    </section>
+    <!-- ------------------Footer section------------------ -->
+    <footer>
+      <div class="about">
+        <h1>About us</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur et,
+          nam doloremque quo labore eius magni laborum optio aut obcaecati quia
+          dicta. Debitis reiciendis enim voluptatibus, voluptas temporibus
+          labore dolorem.
+        </p>
+        <div class="socials">
+          <i class="ri-facebook-circle-fill"></i>
+          <i class="ri-whatsapp-fill"></i>
+          <i class="ri-instagram-fill"></i>
+          <i class="ri-linkedin-box-fill"></i>
+        </div>
+      </div>
+      <div class="quick-links">
+        <h1>Quick links</h1>
+        <ul>
+          <li><a href="#section-01">Home</a></li>
+          <li><a href="#section-02">About Us</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="#section-06">Collabration</a></li>
+          <li><a href="#section-06">Blogs/news</a></li>
+          <li><a href="#section-06">Resources</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h1>Contact us</h1>
+        <p>
+          <i class="ri-mail-fill"></i> Email:
+          <a href="mailto:abcedefg@gmail.com">fdcfdsolutions@gmail.com</a>
+        </p>
+        <p><i class="ri-phone-fill"></i> Ajinkya Patil: +91 8830897023</p>
+        <p><i class="ri-phone-fill"></i> R. Chavan: +91 9890837581</p>
+        <p></p>
+      </div>
+    </footer>
+    <script src="newpop.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- <script src="./js/formsubmit.js"></script> -->
+    <script src="./js/popup.js"></script>
+    <script src="./js/formvalidation.js"></script>
+    <!-- <script src="./js/submitform.js"></script> -->
+  </body>
+</html>

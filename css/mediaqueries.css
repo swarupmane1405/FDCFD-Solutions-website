@@ -1,0 +1,322 @@
+@media (max-width: 479px) {
+  html {
+    font-size: 45%;
+  }
+  body {
+    background-color: #f3f6fd;
+  }
+  .site-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .site-navbar ul li a {
+    font-size: 2.5rem;
+  }
+  /* ------------------------section-01--------------------------- */
+  .section-01 {
+    height: 95vh;
+  }
+  .section-01 .carousel img {
+    width: 100%;
+    height: 100%;
+  }
+  .section-01 .container1 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* ------------------------section-02--------------------------- */
+  .section-02 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+
+  .section-02 .about {
+    margin: 5rem 0;
+  }
+  .section-02 .heading {
+    margin-top: 5rem;
+  }
+  .section-02 .heading .hright {
+    width: 100%;
+  }
+  .section-02 .heading .hleft {
+    height: 7rem;
+    width: 25%;
+    background-color: #f3f6fd;
+  }
+  .section-02 .about {
+    flex-direction: column;
+    height: 100%;
+    margin-left: 0rem;
+  }
+  .section-02 .about .aleft {
+    background: url(../assets/about.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .section-02 .about .aleft {
+    height: 60vh;
+    width: 100%;
+  }
+  .section-02 .about .aright {
+    height: auto;
+    padding: 3rem;
+    width: 90vw;
+    background-color: var(--color4);
+    transform: translate(0rem, 0rem);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  .section-02 .about .aright h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .section-02 .about .aright p {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  /* <-------------------------------section-04---------------------------------> */
+  .section-04 {
+    margin-top: 5rem;
+    gap: 10rem;
+  }
+  .section-04 .card-container {
+    gap: 5rem;
+  }
+  .section-04 .heading .hleft {
+    width: 25%;
+  }
+  .section-04 .heading .hright {
+    width: 100%;
+  }
+  .section-04 .card h2 {
+    padding: 4px 0;
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0;
+  }
+  .section-04 .card a {
+    font-size: 1.8rem;
+  }
+
+  .section-04 .card p {
+    padding: 4px 0;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+  }
+  /* <-------------------------------section-05---------------------------------> */
+
+  .section-05 {
+    height: 100%;
+    margin: 20rem 0;
+  }
+  .section-05 .card-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* Remove width and height properties */
+    width: 90%;
+    overflow: hidden;
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+    height: 60vh;
+    /* Adjust height if needed */
+  }
+  .section-05 .card-container::-webkit-scrollbar {
+    width: 5px;
+  }
+  .section-05 .card-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .section-05 .card-container::-webkit-scrollbar-thumb {
+    background: var(--color2);
+    border-radius: 10px;
+  }
+
+  .section-05 .card {
+    width: 300px; /* Set your desired fixed width here */
+    height: auto; /* Adjust height as needed */
+  }
+  .section-05 .card:hover {
+    transform: scale(1);
+  }
+  .section-05 .card h2 {
+    padding: 4px 0;
+    text-align: left;
+    font-size: 3.2rem;
+    margin: 0;
+  }
+
+  .section-05 .card p {
+    padding: 4px 0;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+  }
+  .section-05 .heading {
+    margin-bottom: 10rem;
+  }
+  .section-05 .container5 {
+    height: 100%;
+  }
+  .section-05 .customer-container {
+    height: 50vh;
+    gap: 10rem;
+    margin-bottom: 15rem;
+  }
+  .section-05 .customer-container .customer {
+    padding: 3rem;
+    width: 80%;
+    height: 20rem;
+  }
+  .section-05 .heading .hleft {
+    width: 25%;
+  }
+  .section-05 .heading .hright {
+    width: 100%;
+    height: 8rem;
+  }
+  .section-05 .heading .hright h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  /* <-------------------------------section-06---------------------------------> */
+
+  .section-06 {
+    height: 100vh;
+    margin-bottom: 20rem;
+  }
+  .section-06 .heading {
+    margin-bottom: 10rem;
+  }
+  .section-06 .heading .hleft {
+    width: 25%;
+  }
+  .section-06 .heading .hright {
+    width: 100%;
+    height: 8rem;
+  }
+  .section-06 .container6 {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .section-06 .contact-info {
+    width: 100%;
+    font-size: 2rem;
+    transform: translateX(0px);
+  }
+  .section-06 .form {
+    width: 100%;
+    background-color: var(--color4);
+    box-shadow: 0.5rem 0.5rem 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  .section-06 .form input,
+  textarea {
+    margin-left: 0;
+  }
+  .section-06 .form textarea {
+    height: 10rem;
+  }
+  .section-06 .form button {
+    padding: 1rem 2rem;
+    border: 0;
+    outline: 0;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    background: var(--color1);
+    color: var(--color4);
+  }
+  .section-06 .popup {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    flex-direction: column;
+    padding: 5rem 0;
+    background-color: var(--color4);
+    width: 80%;
+    border-radius: 0.6rem;
+    gap: 2rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    background-color: var(--color1);
+    color: var(--color4);
+    flex-direction: column;
+    gap: 17rem;
+    padding: 5rem 2rem;
+  }
+  footer h1 {
+    font-size: 3.5rem;
+  }
+  footer .about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 15rem;
+    gap: 2rem;
+    width: 100%;
+  }
+  footer .about p {
+    font-size: 2rem;
+  }
+  footer .about i {
+    font-size: 2.2rem;
+    margin-right: 2rem;
+  }
+  footer .quick-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 15rem;
+    gap: 2rem;
+  }
+  footer .quick-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  footer .quick-links a {
+    font-size: 2rem;
+  }
+  footer .contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;
+  }
+  footer .contact p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .section-05 {
+    height: 100vh;
+    margin-top: 10rem;
+    margin-bottom: 40rem;
+  }
+}

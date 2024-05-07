@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/service.css" />
+    <title>FDC Solutions</title>
+  </head>
+  <body>
+    <header class="header-area">
+      <!-- site-navbar start -->
+      <div class="navbar-area">
+        <div class="container">
+          <nav class="site-navbar">
+            <!-- site logo -->
+            <a href="./index.html" class="site-logo"
+              ><img src="./assets/logo.png" alt=""
+            /></a>
+
+            <!-- site menu/nav -->
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./index.html">About Us</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <!-- <li><a href="./index.html">Blogs/news</a></li>
+              <li><a href="./index.html">Resources</a></li> -->
+              <li><a href="#" onclick="openPopup()">Contact Us</a></li>
+            </ul>
+
+            <!-- nav-toggler for mobile version only -->
+            <button class="nav-toggler">
+              <span></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+      <!-- navbar-area end -->
+    </header>
+    <div class="services">
+      <div class="heading">
+        <div class="hleft"></div>
+        <div class="hright">
+          <h1>Our Services</h1>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+        <div class="card">
+          <h2>CFD Analysis: Projects from Mechanical and allied disciplines</h2>
+          <button onclick="openPopup()">Know More</button>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup">
+      <button onclick="closePopup()" id="closeicon">
+        <i class="ri-close-fill"></i>
+      </button>
+      <div class="container6">
+        <div class="contact-info">
+          <h2>Let's Work Together</h2>
+          <p><i class="ri-map-pin-2-fill"></i> RIT, Islampur, rajaramnagar</p>
+          <p>
+            <i class="ri-mail-fill"></i> Email:
+            <a href="mailto:abcedefg@gmail.com">fdcfdsolutions@gmail.com</a>
+          </p>
+          <p><i class="ri-phone-fill"></i> +91 8830897023</p>
+          <p><i class="ri-phone-fill"></i> +91 9890837581</p>
+          <p>
+            <a href="www.linked.com"
+              ><i class="ri-linkedin-box-fill"></i> fdc-solutions</a
+            >
+          </p>
+        </div>
+        <form
+          class="form"
+          method="post"
+          action="https://script.google.com/macros/s/AKfycbyrqDvK0Mi1TF1ok3IdMWWh3LeraOzuW1aLSocJk1HS8w3KFsCBawFFe-20F40r2xaH6Q/exec"
+          name="contact-form"
+        >
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          /><br />
+          <input
+            type="number"
+            id="email"
+            name="phone"
+            placeholder="Phone"
+            required
+          /><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message"
+            required
+          ></textarea
+          ><br />
+          <button onclick="openPopup()">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/project.js"></script>
+    <script src="./js/formvalidation.js"></script>
+  </body>
+</html>
