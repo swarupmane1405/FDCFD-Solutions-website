@@ -28,6 +28,10 @@
     transform: translate(-50%, -50%);
   }
 
+  .section-01 .container1 h1 {
+  font-size: 3rem;
+}
+
   /* ------------------------section-02--------------------------- */
   .section-02 {
     height: 100%;
@@ -274,7 +278,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    height: 15rem;
+    height: 17rem;
     gap: 2rem;
     width: 100%;
   }
